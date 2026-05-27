@@ -121,14 +121,16 @@ Todo o tráfego passará com segurança da sua máquina, de forma encriptada pel
 > **Aviso para Recrutadores / Avaliadores**: Esta seção contém as capturas de tela que comprovam a execução real deste laboratório e sua eficácia.
 
 ### 1. Conexão Bem Sucedida via SSH Tunnel
-<!-- Cole aqui a imagem da sua ferramenta de banco (ex: DBeaver) conectada com sucesso -->
+
 *Imagem 1: Demonstração da conexão local batendo no RDS na nuvem via Bastion.*
-`[ Insira sua imagem aqui: ![Conexão Banco](docs/images/dbeaver.png) ]`
+<img width="720" height="510" alt="DBeaver" src="https://github.com/user-attachments/assets/e8445f1a-2853-4e5b-a7e3-147975017e81" />
 
 ### 2. Execução da Automação (Lambda Start/Stop)
-<!-- Cole aqui a imagem do Console da AWS (CloudWatch Logs ou aba de Teste da Lambda) -->
-*Imagem 2: Logs do CloudWatch provando que a função Lambda ligou/desligou a instância corretamente no horário agendado.*
-`[ Insira sua imagem aqui: ![Logs Cloudwatch](docs/images/cloudwatch.png) ]`
+*Imagem 2: Logs do CloudWatch provando que a função Lambda ligou a instância corretamente no horário agendado.*
+<img width="720" height="488" alt="Logs do LigarPorteiro" src="https://github.com/user-attachments/assets/80de0903-0249-4b21-8169-45ea0613927b" />
+
+Imagem 3: Logs do CloudWatch provando que a função Lambda desligou a instância corretamente no horário agendado.
+<img width="720" height="487" alt="Logs do DesligarPorteiro" src="https://github.com/user-attachments/assets/7a63cb8d-ee22-47ce-ad45-df46880ce6a4" />
 
 ---
 
